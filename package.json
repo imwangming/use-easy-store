@@ -12,7 +12,7 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "clean": "lerna clean --yes",
-    "publish": "npm run build && lerna publish && npm run deploy",
+    "publish": "npm run build && lerna publish",
     "deploy": "dumi build && gh-pages -d docs-dist"
   },
   "module": "es/index.js",
