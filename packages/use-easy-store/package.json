@@ -1,6 +1,6 @@
 {
   "name": "use-easy-store",
-  "description": "简单的数据管理",
+  "description": "一个有手就行的 react-hooks 状态管理库",
   "license": "MIT",
   "version": "1.0.1",
   "keywords": [
@@ -25,7 +25,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "lib/index.d.ts",
-  "repository": "https://gitee.com/imwangming/use-easy-store",
+  "repository": "https://github.com/imwangming/use-easy-store",
   "sideEffects": [],
   "dependencies": {
     "immer": "^9.0.12",
