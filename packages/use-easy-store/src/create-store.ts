@@ -23,7 +23,7 @@ const setImmerEasyState = (nextState: any) => {
   listeners.forEach((listener: any) => listener());
 };
 
-export const createEasyStore = (createEasyState: any) => {
-  easyState = createEasyState();
+export const createEasyStore = (defaultEasyState: any) => {
+  easyState = defaultEasyState;
   return (store = { getEasyState, setEasyState, setImmerEasyState, subscribe });
 };
