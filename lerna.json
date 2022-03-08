@@ -1,0 +1,16 @@
+{
+  "command": {
+    "bootstrap": {
+      "hoist": true,
+      "npmClientArgs": ["--no-package-lock", "--no-ci"]
+    },
+    "publish": {
+      "verifyAccess": false,
+      "registry": "https://registry.npmjs.org/",
+      "message": ":bookmark: publish %s"
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "1.0.8"
+}
